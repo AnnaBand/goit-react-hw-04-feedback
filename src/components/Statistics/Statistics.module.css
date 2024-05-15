@@ -5,8 +5,7 @@
     align-items: center;
   }
   .statistics_header {
-    margin: 0;
-    padding: 25px;
+    padding-top: 20px;
   }
   .statistics_list {
     display: flex;
@@ -16,4 +15,9 @@
     padding: 0;
     padding-bottom: 25px;
     list-style: none;
+  }
+
+  .total,
+  .pf {
+    font-weight: bold;
   }
