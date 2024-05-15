@@ -1,0 +1,25 @@
+.feedback_container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0 60px 0 60px;
+  }
+
+  .feedback_btn {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #f3f6f9;
+    color: #82909e;
+    transition: all 800ms;
+    /* font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold; */
+  }
+
+  .feedback_btn:hover {
+    background-color: #4267B2;
+    color: white;
+  }
